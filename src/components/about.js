@@ -1,9 +1,9 @@
 import React from 'react';
-
+import me from "../assets/headshot.jpg"
 function About(){
     return (
         <div className='aboutMe'>
-            <img src='/assets/headshot.jpg'  style={{width: "20vw", height: "35vw"}}></img>
+            <img src={me}  style={{width: "20vw", height: "35vw"}}></img>
             <div className='portfolioText'>
                 <div className='portfolioName'>About me</div>
                 <div>
